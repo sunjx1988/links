@@ -1,2 +1,1 @@
-# links
-一些链接网址
+[算法小抄](https://labuladong.gitbook.io/algo/)
