@@ -2,6 +2,8 @@
 
 [算法小抄](https://labuladong.gitbook.io/algo/)   
 
+[时间复杂度分析](https://www.jianshu.com/p/31688b6b3220)
+
 # 数据结构	
 
 # 幂等性	
@@ -34,10 +36,16 @@
 
 [数据库与redis一致性](https://www.jianshu.com/p/798d3b0b980f)
 
+[分布式事务](https://www.jianshu.com/p/60092f498374)
+
 # 分布式
 
 [分布式服务接口请求的顺序性如何保证](https://www.jianshu.com/p/64e3ccee339e)
 
+[zookeeper都有哪些使用场景](https://www.jianshu.com/p/a4d72efd9967)
+
 # MYSQL
 
 [MySQL的万字总结（缓存，索引，Explain，事务，redo日志等](https://www.jianshu.com/p/2530d1185778)
+
+[关于MySQL索引的几件小事](https://www.jianshu.com/p/b1eadcad1043)
