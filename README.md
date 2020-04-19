@@ -10,6 +10,8 @@
 
 # MQ	
 
+[技术选型](https://www.jianshu.com/p/fdd94be6037a)
+
 [push模式下,如何保证消息一定被消费](https://www.cnblogs.com/zjg-gwx/p/10868264.html)	
 
 [pull模式下,如何保证消息一定被消费]()		
@@ -20,6 +22,22 @@
 
 [使用消息中间件时，如何保证消息仅仅被消费一次？](https://www.toutiao.com/i6803224493616529927/)		
 
+[如何保证消息的顺序性](https://www.jianshu.com/p/02fdcb9e8784)
+
+[消息积压在消息队列里怎么办](https://www.jianshu.com/p/07b2169bef49)
+
 # 锁
 
 [什么是乐观锁，什么是悲观锁](https://www.jianshu.com/p/d2ac26ca6525)	
+
+# 事务,一致性
+
+[数据库与redis一致性](https://www.jianshu.com/p/798d3b0b980f)
+
+# 分布式
+
+[分布式服务接口请求的顺序性如何保证](https://www.jianshu.com/p/64e3ccee339e)
+
+# MYSQL
+
+[MySQL的万字总结（缓存，索引，Explain，事务，redo日志等](https://www.jianshu.com/p/2530d1185778)
