@@ -34,6 +34,8 @@
 
 # 多线程
 
+[ThreadLocal](https://blog.csdn.net/sinat_33921105/article/details/103295070)
+
 [指令重排]()
 
 # 锁
