@@ -6,6 +6,10 @@
 
 # 数据结构	
 
+[HashMap](https://blog.csdn.net/zhengwangzw/article/details/104889549?depth_1-utm_source=distribute.pc_category.none-task&request_id=&utm_source=distribute.pc_category.none-task)
+
+[ArrayList](https://blog.csdn.net/sinat_33921105/article/details/103773539)
+
 # 幂等性	
 
 [api幂等策略分析](https://www.cnblogs.com/geyifan/p/6128425.html)		
@@ -28,6 +32,10 @@
 
 [消息积压在消息队列里怎么办](https://www.jianshu.com/p/07b2169bef49)
 
+# 多线程
+
+[指令重排]()
+
 # 锁
 
 [什么是乐观锁，什么是悲观锁](https://www.jianshu.com/p/d2ac26ca6525)	
@@ -49,3 +57,5 @@
 [MySQL的万字总结（缓存，索引，Explain，事务，redo日志等](https://www.jianshu.com/p/2530d1185778)
 
 [关于MySQL索引的几件小事](https://www.jianshu.com/p/b1eadcad1043)
+
+# 容器
