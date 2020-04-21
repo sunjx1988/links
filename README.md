@@ -1,3 +1,5 @@
+***目前目录比较乱，多了以后再整理***
+
 # 算法
 
 [算法小抄](https://labuladong.gitbook.io/algo/)   
@@ -61,3 +63,11 @@
 [关于MySQL索引的几件小事](https://www.jianshu.com/p/b1eadcad1043)
 
 # 容器
+
+# 安全
+
+[token 鉴权](https://www.cnblogs.com/fujingtao5470/p/11573528.html)
+
+# spring
+
+[spring](https://blog.csdn.net/weixin_43737917/article/details/105213582?depth_1-utm_source=distribute.pc_category.none-task&request_id=&utm_source=distribute.pc_category.none-task)
