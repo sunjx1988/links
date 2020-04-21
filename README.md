@@ -76,6 +76,8 @@
 
 [API Gateway](https://www.cnblogs.com/paxlyf/p/11119159.html)
 
+[斗鱼 API 网关演进之路](http://www.upyun.com/opentalk/425.html)
+
 # MYSQL
 
 [MySQL的万字总结（缓存，索引，Explain，事务，redo日志等](https://www.jianshu.com/p/2530d1185778)
@@ -93,3 +95,7 @@
 [spring 第一篇](https://blog.csdn.net/weixin_43737917/article/details/105213582)
 
 [spring 第二篇](https://blog.csdn.net/weixin_43737917/article/details/105222054)
+
+# 公开课
+
+[又拍云](https://www.upyun.com/opentalk)
