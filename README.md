@@ -1,5 +1,7 @@
 ***目前目录比较乱，多了以后再整理***
 
+履历 / 学历 / 技术 / 人脉
+
 # 算法
 
 [算法小抄](https://labuladong.gitbook.io/algo/)   
@@ -85,6 +87,8 @@
 [MySQL的万字总结（缓存，索引，Explain，事务，redo日志等](https://www.jianshu.com/p/2530d1185778)
 
 [关于MySQL索引的几件小事](https://www.jianshu.com/p/b1eadcad1043)
+
+[慢SQL，Explain](https://www.cnblogs.com/qmfsun/p/4844472.html)
 
 # 容器
 
