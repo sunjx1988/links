@@ -105,3 +105,9 @@
 # 公开课
 
 [又拍云](https://www.upyun.com/opentalk)
+
+# 即时通讯
+
+[WebRTC实时音视频技术基础：基本架构和协议栈](http://www.52im.net/thread-442-1-1.html)
+
+[腾讯技术分享：微信小程序音视频与WebRTC互通的技术思路和实践](http://www.52im.net/thread-1988-1-1.html)
