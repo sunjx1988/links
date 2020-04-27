@@ -92,6 +92,15 @@
 
 # 容器
 
+[centos7安装docker](https://www.cnblogs.com/yufeng218/p/8370670.html)
+
+[docker 快速搭建 kafka + zookeeper](https://www.jianshu.com/p/ac03f126980e)
+```
+# docker flink
+docker run --name flink_jobmanager -d -t -p 8081:8081 flink jobmanager
+docker run --name flink_taskmanager -d -t flink taskmanager
+```
+
 # 安全
 
 [token 鉴权](https://www.cnblogs.com/fujingtao5470/p/11573528.html)
