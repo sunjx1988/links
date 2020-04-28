@@ -95,10 +95,17 @@
 [centos7安装docker](https://www.cnblogs.com/yufeng218/p/8370670.html)
 
 [docker 快速搭建 kafka + zookeeper](https://www.jianshu.com/p/ac03f126980e)
+
+[基于docker 快速构建 zk + flink](https://www.cnblogs.com/1ssqq1lxr/p/10417005.html)
 ```
 # docker flink
 docker run --name flink_jobmanager -d -t -p 8081:8081 flink jobmanager
 docker run --name flink_taskmanager -d -t flink taskmanager
+
+# docker-compose 安装
+curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ```
 
 # 安全
