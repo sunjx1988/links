@@ -106,13 +106,17 @@ docker run --name flink_taskmanager -d -t flink taskmanager
 curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+
+# 停止全部容器
+docker ps -a | `awk 'NR>1 {print "docker stop ", $1}'`
+docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
 ```
 
 # 安全
 
 [token 鉴权](https://www.cnblogs.com/fujingtao5470/p/11573528.html)
 
-# spring
+# Spring
 
 [spring 第一篇](https://blog.csdn.net/weixin_43737917/article/details/105213582)
 
@@ -127,3 +131,7 @@ ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 [WebRTC实时音视频技术基础：基本架构和协议栈](http://www.52im.net/thread-442-1-1.html)
 
 [腾讯技术分享：微信小程序音视频与WebRTC互通的技术思路和实践](http://www.52im.net/thread-1988-1-1.html)
+
+[Websocket]
+
+[Redis 订阅发布模式]
