@@ -104,7 +104,7 @@
 
 [基于docker 快速构建 zk + kafka + flink](https://www.cnblogs.com/1ssqq1lxr/p/10417005.html)
 
-[dk + zk + kafka + flink compose构建文件](docker/zk-kafka-flink/docker-compose.yml)
+[dk + zk + kafka + flink compose构建文件](docker/zk-kafka-flink/docker-compose.md)
 
 [dk + zk + kafka + flink 相关命令](docker/zk-kafka-flink/cmd.md)
 
