@@ -74,6 +74,12 @@
 
 [面试官：兄弟，谈谈你对分布式系统原理的理解](https://www.toutiao.com/a6817228688178807309)
 
+# 缓存
+
+[Redis 的订阅发布模式]()
+
+# WebSocket
+
 # Netty
 
 # 网关
@@ -96,16 +102,17 @@
 
 [docker 快速搭建 kafka + zookeeper](https://www.jianshu.com/p/ac03f126980e)
 
-[基于docker 快速构建 zk + flink](https://www.cnblogs.com/1ssqq1lxr/p/10417005.html)
-```
-# docker flink
-docker run --name flink_jobmanager -d -t -p 8081:8081 flink jobmanager
-docker run --name flink_taskmanager -d -t flink taskmanager
+[基于docker 快速构建 zk + kafka + flink](https://www.cnblogs.com/1ssqq1lxr/p/10417005.html)
 
+[dk + zk + kafka + flink compose构建文件](docker/zk-kafka-flink/docker-compose.yml)
+
+[dk + zk + kafka + flink 相关命令](docker/zk-kafka-flink/cmd.md)
+
+```
 # docker-compose 安装
-curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
-ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+> curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+> chmod +x /usr/local/bin/docker-compose
+> ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 # 停止全部容器
 docker ps -a | `awk 'NR>1 {print "docker stop ", $1}'`
@@ -134,4 +141,8 @@ docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
 
 [Websocket]
 
-[Redis 订阅发布模式]
+# Markdown
+
+[语法](https://www.runoob.com/markdown/md-tutorial.html)
+
+[高级用法,UML等](https://www.runoob.com/markdown/md-advance.html)
