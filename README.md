@@ -141,6 +141,9 @@ docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
 
 [Websocket]
 
+# canal
+
+[如何基于Canal 和 Kafka，实现 MySQL 的 Binlog 近实时同步？](https://mp.weixin.qq.com/s/YnFrtNDgosEMc_N8YKJp6w)
 # Markdown
 
 [语法](https://www.runoob.com/markdown/md-tutorial.html)
