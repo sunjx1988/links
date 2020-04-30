@@ -108,6 +108,19 @@
 
 [dk + zk + kafka + flink 相关命令](docker/zk-kafka-flink/cmd.md)
 
+[dk + jenkins](https://www.jianshu.com/p/a70572099eda)
+
+[dk + git + jenkins](https://blog.51cto.com/ganbing/2085769)
+
+[k8s + git + jenkins](https://blog.51cto.com/14154700/2455283)
+
+[Flume+Kafka+Flink+Redis构建大数据实时处理系统：实时统计网站PV、UV展示](https://yq.aliyun.com/articles/635327)
+
+[图形化管理界面 shipyard](http://www.shipyard-project.com)
+
+[k8s 简介和安装](https://blog.51cto.com/14154700/2447761)
+
+
 ```
 # docker-compose 安装
 > curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -123,6 +136,8 @@ docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
 
 [token 鉴权](https://www.cnblogs.com/fujingtao5470/p/11573528.html)
 
+[OAuth2 授权](https://www.jianshu.com/p/9d0264d27c3b)
+
 # Spring
 
 [spring 第一篇](https://blog.csdn.net/weixin_43737917/article/details/105213582)
@@ -132,6 +147,10 @@ docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
 # 公开课
 
 [又拍云](https://www.upyun.com/opentalk)
+
+[美团技术](https://tech.meituan.com/)
+
+[阿里系统软件技术](https://www.cnblogs.com/alisystemsoftware/)
 
 # 即时通讯
 
