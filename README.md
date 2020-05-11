@@ -159,6 +159,7 @@ docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
 [腾讯技术分享：微信小程序音视频与WebRTC互通的技术思路和实践](http://www.52im.net/thread-1988-1-1.html)
 
 [Websocket]
+[分布式WebSocket集群解决方案](https://segmentfault.com/a/1190000017307713)
 
 # canal
 
