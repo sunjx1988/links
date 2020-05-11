@@ -169,3 +169,10 @@ docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
 [语法](https://www.runoob.com/markdown/md-tutorial.html)
 
 [高级用法,UML等](https://www.runoob.com/markdown/md-advance.html)
+
+# Vue
+
+```
+//npm库设置为淘宝镜像
+npm config set registry https://registry.npm.taobao.org
+```
