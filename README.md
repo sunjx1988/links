@@ -24,7 +24,7 @@
 
 [api幂等策略分析](https://www.cnblogs.com/geyifan/p/6128425.html)		
 
-# MQ	
+# MQ
 
 [技术选型](https://www.jianshu.com/p/fdd94be6037a)
 
@@ -138,6 +138,20 @@ docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
 
 [OAuth2 授权](https://www.jianshu.com/p/9d0264d27c3b)
 
+[API 接口应该如何设计？如何保证安全？如何签名？如何防重？](https://mp.weixin.qq.com/s/oJ_0kIKytFOMe7b5-UTgaw)
+
+[HTTPS 的工作原理](https://mp.weixin.qq.com/s/KgddqOxg2D19lFxmIDwmBQ)
+
+```
+防止重复提交
+
+对于一些重要的操作需要防止客户端重复提交的(如非幂等性重要操作)，具体办法是当请求第一次提交时将sign作为key保存到redis，并设置超时时间，超时时间和Timestamp中设置的差值相同。
+
+当同一个请求第二次访问时会先检测redis是否存在该sign，如果存在则证明重复提交了，接口就不再继续调用了。如果sign在缓存服务器中因过期时间到了，而被删除了，此时当这个url再次请求服务器时，因token的过期时间和sign的过期时间一直，sign过期也意味着token过期，那样同样的url再访问服务器会因token错误会被拦截掉，这就是为什么sign和token的过期时间要保持一致的原因。拒绝重复调用机制确保URL被别人截获了也无法使用（如抓取数据）。
+
+对于哪些接口需要防止重复提交可以自定义个注解来标记。
+```
+
 # Spring
 
 [spring 第一篇](https://blog.csdn.net/weixin_43737917/article/details/105213582)
@@ -164,6 +178,7 @@ docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
 # canal
 
 [如何基于Canal 和 Kafka，实现 MySQL 的 Binlog 近实时同步？](https://mp.weixin.qq.com/s/YnFrtNDgosEMc_N8YKJp6w)
+
 # Markdown
 
 [语法](https://www.runoob.com/markdown/md-tutorial.html)
@@ -173,6 +188,10 @@ docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
 # Vue
 
 ```
-//npm库设置为淘宝镜像
+# npm库设置为淘宝镜像
 npm config set registry https://registry.npm.taobao.org
+
+# 加上 --save 参数会自动添加依赖到 package.json 中去。
+npm install 模块 --save
+
 ```
