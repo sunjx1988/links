@@ -96,6 +96,30 @@
 
 [慢SQL，Explain](https://www.cnblogs.com/qmfsun/p/4844472.html)
 
+[docker 方式](https://dev.mysql.com/doc/refman/5.7/en/docker-mysql-getting-started.html)
+
+```
+# 运行镜像创建容器
+docker run --name mysql-server \
+-v /val/lib/mysql/data:/var/lib/mysql \
+-v /etc/mysql/conf.d:/etc/mysql/conf.d \ 
+-e MYSQL_ROOT_PASSWORD=000000s \
+-p 3306:3306 \
+-d mysql/mysql-server:5.7
+
+# 进入容器内
+docker exec -it mysql-server
+
+# 修改远程访问
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '000000s' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+EXIT;
+
+# 重启
+docker restart mysql-server
+
+```
+
 # 容器
 
 [centos7安装docker](https://www.cnblogs.com/yufeng218/p/8370670.html)
@@ -130,6 +154,9 @@
 # 停止全部容器
 docker ps -a | `awk 'NR>1 {print "docker stop ", $1}'`
 docker ps -a | `awk 'NR>1 {print "docker rm ", $1}'`
+
+# 删除全部镜像
+docker rmi $(docker ps -a -q)
 ```
 
 # 安全
