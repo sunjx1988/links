@@ -76,6 +76,13 @@
 
 # 缓存
 
+```
+docker pull redis:6.0.1
+
+docker run -p 6379:6379 --name myredis -v /usr/local/docker/redis.conf:/etc/redis/redis.conf -v /usr/local/docker/data:/data -d redis redis-server /etc/redis/redis.conf --appendonly yes
+
+```
+
 [Redis 的订阅发布模式]()
 
 # WebSocket
